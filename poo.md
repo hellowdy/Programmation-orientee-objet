@@ -72,3 +72,18 @@ La visibilité de l'objet est diviséd en trois catégories:
 -**Public** : accessible à tous, pouvant modifier le contenu depuis l'extérieur et l'intérieur.
 -**Protected**: fonctionne avec l'héritage, permettant à la sous-classe de récupérer le protect de la super classe.
 -**Private**: il est modifiable depuis l'intérieur de la classe mais inaccessible depuis l'extérieur.
+
+#### Qu'est-ce que l'association ?
+L'association intéragie sur deux classes distinctes, mais pas seulement :
+-un et un
+-un et plusieurs
+-plusieurs et un
+-plusieurs et plusieurs
+
+Il existe deux types d'associations : **composition** et **agrégation**
+
+**L'agrégation**  est une association à sens unique, une classe peut exister indépendamment d'un autre si cette dernière est détruite ou inversement.
+
+**La composition** fonctionne avec l'héritage. La sous classe ne pourra plus exister si la super classe est détruite.
+
+![association](https://www.dariawan.com/media/images/uml-association-aggregation-composition.width-400.png)
