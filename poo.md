@@ -125,3 +125,21 @@ public class Voiture extends Automobile{
 }
 ```
 ![heritage](https://3.bp.blogspot.com/-VXNpu1lJHW4/W28yta4BEzI/AAAAAAAACZY/OekYrdByYiYmAjnBODQTeoJPnF6u4yGUQCLcBGAs/s1600/Diff%25C3%25A9rence%2Bentre%2BH%25C3%25A9ritage%2Bet%2BComposition%2Ben%2BJava.png)
+
+#### Qu'est-ce que le polymorphisme ?
+Le polymorphisme permet de redéfinir une méthode d'une sous classe.
+```java
+publi class Animal{
+    public void crier(){
+        System.out.println("un cri d'animal");
+    }
+}
+```
+
+```java
+public class Chat extends Animal{
+    public void crier(){
+        System.out.println("Miaou !");
+    }
+}
+```
