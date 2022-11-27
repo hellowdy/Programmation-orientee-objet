@@ -65,3 +65,10 @@ Dans une classe, la fonction est appelée **méthode**. Elle permet d'intéragir
 Les attributs est les méthodes se construisent de la même manière : [portée] [type] [nom]
 
 ![attribut & héritage](https://1.bp.blogspot.com/-OG0QLqcJx0A/XhCrsbmEXgI/AAAAAAAAIJw/5EY_LKcVehMaAtGxxt5ciSqQJd9EQM2IACNcBGAsYHQ/s1600/car-poo.png)
+
+#### Qu'est-ce que l'encaplusation ?
+L'encapsulation permet de sécuriser les données en verrouillant l'accès à vos objets (attribut, méthode, class...) afin qu'elles ne soient pas modifiées ou lues à votre encontre. 
+La visibilité de l'objet est diviséd en trois catégories:
+-**Public** : accessible à tous, pouvant modifier le contenu depuis l'extérieur et l'intérieur.
+-**Protected**: fonctionne avec l'héritage, permettant à la sous-classe de récupérer le protect de la super classe.
+-**Private**: il est modifiable depuis l'intérieur de la classe mais inaccessible depuis l'extérieur.
