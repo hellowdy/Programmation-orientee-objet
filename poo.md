@@ -87,3 +87,22 @@ Il existe deux types d'associations : **composition** et **agrégation**
 **La composition** fonctionne avec l'héritage. La sous classe ne pourra plus exister si la super classe est détruite.
 
 ![association](https://www.dariawan.com/media/images/uml-association-aggregation-composition.width-400.png)
+
+#### Qu'est-ce que la classe abstraite et la classe concrète ?
+La **classe abstraite** permet à la super classe de ne pas se répéter en conférant ses propriétés à ses descendants, évitant la surcharge. Ce qui veux dire, que la super classe n'est pas instancié, mais ces sous classes le seront.
+
+```java
+public abstract class A { 
+    public abstract void ouSuisJe(); // pas de corps de méthode
+}
+```
+
+La **classe concrète**  est une sous classe de la classe abstraite permettant de  l'instancié.
+
+```java
+public abstract class A { 
+    public abstract void ouSuisJe(){
+        System.out.println("J'y suis j'y reste !");
+    }
+}
+```
