@@ -106,3 +106,8 @@ public abstract class A {
     }
 }
 ```
+
+#### Qu'elle est la différence entre la généralisation et la spécialisation des classes ?
+La **généralisation** est la conversion d'une sous classe vers une super classe, sa portée devient générale et il s'élargira pour instancié des sous classes. 
+La **spécialisation** est la conversion d'une super classe vers une sous classe, sa portée se réduira et il se spécialisera dans un domaine particulier.
+![généralisation & spécialisation](https://www.scientecheasy.com/wp-content/uploads/2019/12/generalization-and-specialization.png)
