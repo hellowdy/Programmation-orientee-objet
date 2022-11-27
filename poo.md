@@ -111,3 +111,17 @@ public abstract class A {
 La **généralisation** est la conversion d'une sous classe vers une super classe, sa portée devient générale et il s'élargira pour instancié des sous classes. 
 La **spécialisation** est la conversion d'une super classe vers une sous classe, sa portée se réduira et il se spécialisera dans un domaine particulier.
 ![généralisation & spécialisation](https://www.scientecheasy.com/wp-content/uploads/2019/12/generalization-and-specialization.png)
+
+#### Qu'est-ce que l'héritage ?
+L'héritage reprend les propriétés et fonctionnalités de la classe parent et les transmets à la classe enfant.
+
+```java
+public class Automobile {
+    ...   //class parent
+}
+
+public class Voiture extends Automobile{
+    ....    // class enfant
+}
+```
+![heritage](https://3.bp.blogspot.com/-VXNpu1lJHW4/W28yta4BEzI/AAAAAAAACZY/OekYrdByYiYmAjnBODQTeoJPnF6u4yGUQCLcBGAs/s1600/Diff%25C3%25A9rence%2Bentre%2BH%25C3%25A9ritage%2Bet%2BComposition%2Ben%2BJava.png)
